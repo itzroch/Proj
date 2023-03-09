@@ -1,0 +1,33 @@
+<table align="left" border="1" cellspacing="0">
+
+<?php
+
+$y = 1;
+
+for ($x=1;$x<=6; $x++)
+{
+
+echo "<tr>";
+
+echo "<td> $y*$x = ".$x*$y."</td>";
+
+echo "</tr>";
+
+for($row=10; $row>=5; $row++)
+
+{
+
+for ($star=1; $star<=$row; $star++)
+
+{
+
+}
+
+echo "$star";
+
+}
+
+}
+?>
+
+</table>
